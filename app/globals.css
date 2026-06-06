@@ -1,0 +1,195 @@
+@import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+:root {
+  /* Hyperdocs brand — light theme, orange primary */
+  --hd-bg: #ffffff;
+  --hd-bg-soft: #fafafa;
+  --hd-surface: #f5f5f5;
+  --hd-sidebar: #f9f9f9;
+  --hd-border: #e8e8e8;
+  --hd-border-soft: #f0f0f0;
+
+  /* Admin chrome — light */
+  --hd-admin-bg: #f3f4f6;
+  --hd-admin-nav: #ffffff;
+  --hd-admin-sidebar: #f9fafb;
+  --hd-admin-border: #e5e7eb;
+  --hd-admin-text: #555555;
+  --hd-admin-muted: #999999;
+
+  /* Orange brand */
+  --hd-accent: #f26522;
+  --hd-accent-hover: #e05515;
+  --hd-accent-light: #fff3ee;
+  --hd-accent-mid: #fde8d8;
+
+  /* Text */
+  --hd-text: #1a1a1a;
+  --hd-text-soft: #444444;
+  --hd-muted: #888888;
+  --hd-muted-light: #bbbbbb;
+
+  /* Status */
+  --hd-green: #22c55e;
+  --hd-green-bg: #f0fdf4;
+  --hd-scrollbar-thumb: #ddd;
+  --hd-scrollbar-thumb-hover: #bbb;
+  --hd-overlay-bg: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme="dark"] {
+  --hd-bg: #0f0f11;
+  --hd-bg-soft: #111113;
+  --hd-surface: #1a1a1c;
+  --hd-sidebar: #111113;
+  --hd-border: #2a2a2a;
+  --hd-border-soft: #222224;
+
+  /* Admin chrome — dark */
+  --hd-admin-bg: #0d0d0f;
+  --hd-admin-nav: #111113;
+  --hd-admin-sidebar: #0f0f11;
+  --hd-admin-border: #1e1e1e;
+  --hd-admin-text: #aaaaaa;
+  --hd-admin-muted: #555555;
+  --hd-text: #e5e5e5;
+  --hd-text-soft: #aaaaaa;
+  --hd-muted: #666666;
+  --hd-muted-light: #444444;
+  --hd-accent-light: rgba(242, 101, 34, 0.12);
+  --hd-accent-mid: rgba(242, 101, 34, 0.22);
+  --hd-green-bg: #0d2b1a;
+  --hd-scrollbar-thumb: #3a3a3c;
+  --hd-scrollbar-thumb-hover: #4a4a4c;
+  --hd-overlay-bg: rgba(15, 15, 17, 0.65);
+}
+
+@theme inline {
+  --color-background: var(--hd-bg);
+  --color-foreground: var(--hd-text);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-admin: var(--font-admin, 'Plus Jakarta Sans', sans-serif);
+
+  --color-hd-bg: var(--hd-bg);
+  --color-hd-bg-soft: var(--hd-bg-soft);
+  --color-hd-surface: var(--hd-surface);
+  --color-hd-sidebar: var(--hd-sidebar);
+  --color-hd-border: var(--hd-border);
+  --color-hd-border-soft: var(--hd-border-soft);
+  --color-hd-accent: var(--hd-accent);
+  --color-hd-accent-hover: var(--hd-accent-hover);
+  --color-hd-accent-light: var(--hd-accent-light);
+  --color-hd-accent-mid: var(--hd-accent-mid);
+  --color-hd-text: var(--hd-text);
+  --color-hd-text-soft: var(--hd-text-soft);
+  --color-hd-muted: var(--hd-muted);
+  --color-hd-green-bg: var(--hd-green-bg);
+  --color-hd-admin-bg: var(--hd-admin-bg);
+  --color-hd-admin-nav: var(--hd-admin-nav);
+  --color-hd-admin-sidebar: var(--hd-admin-sidebar);
+  --color-hd-admin-border: var(--hd-admin-border);
+  --color-hd-admin-text: var(--hd-admin-text);
+  --color-hd-admin-muted: var(--hd-admin-muted);
+}
+
+body {
+  background: var(--hd-bg);
+  color: var(--hd-text);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--hd-bg-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hd-scrollbar-thumb);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hd-scrollbar-thumb-hover);
+}
+
+/* Plate editor base */
+[data-slate-editor] {
+  outline: none;
+  min-height: 100%;
+}
+
+/* Per-element placeholders via data-placeholder attribute */
+[data-placeholder]::before {
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #c8c8c8;
+  pointer-events: none;
+  user-select: none;
+  font-style: normal;
+}
+
+h1[data-placeholder]::before {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d0d0d0;
+}
+
+/* Subtle checkerboard pattern for transparent logo previews */
+.logo-checkerboard {
+  background-color: #ffffff;
+  background-image: radial-gradient(#e2e2e4 20%, transparent 20%),
+                    radial-gradient(#e2e2e4 20%, transparent 20%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+}
+
+[data-theme="dark"] .logo-checkerboard {
+  background-color: #161618;
+  background-image: radial-gradient(#28282b 20%, transparent 20%),
+                    radial-gradient(#28282b 20%, transparent 20%);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes progress-stripe {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1rem 0;
+  }
+}
+
+.animate-progress-stripe {
+  background-image: 
+    linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.15) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.15) 50%,
+      rgba(255, 255, 255, 0.15) 75%,
+      transparent 75%,
+      transparent
+    ),
+    linear-gradient(to right, var(--hd-accent), #ff7e42);
+  background-size: 1rem 1rem, 100% 100%;
+  animation: progress-stripe 0.8s linear infinite;
+}

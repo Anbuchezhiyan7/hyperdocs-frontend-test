@@ -1,0 +1,1512 @@
+export const hyperBlogDummyData: any = [
+    {
+        "id": "f-getting-started",
+        "title": "Getting Started",
+        "slug": "getting-started",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-creating-your-account",
+                "title": "Creating Your Account",
+                "slug": "creating-your-account",
+                "type": "page",
+                "description": "Sign up with Google or email and complete the onboarding tour to set up your blog.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Creating Your Account" }],
+                        "id": "a1b2c3d4e5"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "f6g7h8i9j0"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "HyperBlog makes it easy to get started with your own hosted blog. You can create an account in under a minute using your Google account or an email address, and a guided onboarding tour will walk you through everything you need to know." }],
+                        "id": "k1l2m3n4o5"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "How It Works" }],
+                        "id": "p6q7r8s9t0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Sign up instantly with your Google account — no passwords to remember." }],
+                        "id": "u1v2w3x4y5"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Alternatively, sign up with any email address and verify using a one-time password (OTP) sent to your inbox." }],
+                        "id": "z6a7b8c9d0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "After signing in, provide your site details — organization name, logo, and blog description." }],
+                        "id": "e1f2g3h4i5"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "A guided product tour walks you through the dashboard, editor, and publishing workflow." }],
+                        "id": "j6k7l8m9n0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "You can start creating blog posts immediately after onboarding is complete." }],
+                        "id": "o1p2q3r4s5"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "t6u7v8w9x0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Visit the HyperBlog login page." }],
+                        "id": "y1z2a3b4c5"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Choose your sign-up method: click \"Continue with Google\" to use your Google account, or enter your email address to receive a one-time password." }],
+                        "id": "d6e7f8g9h0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "If using email, check your inbox for the OTP code and enter it on the verification screen." }],
+                        "id": "i1j2k3l4m5"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Complete your site details: enter your organization name, upload a logo, and add a brief description of your blog." }],
+                        "id": "n6o7p8q9r0"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Follow the interactive onboarding tour to learn how to navigate the dashboard, use the editor, and publish your first post." }],
+                        "id": "s1t2u3v4w5"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "You're all set — head to the dashboard to start creating content." }],
+                        "id": "x6y7z8a9b0"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Sign-Up Options" }],
+                        "id": "c1d2e3f4g5"
+                    },
+                    {
+                        "type": "table",
+                        "id": "h6i7j8k9l0",
+                        "children": [
+                            {
+                                "type": "tr",
+                                "id": "m1n2o3p4q5",
+                                "children": [
+                                    { "type": "th", "id": "r6s7t8u9v0", "children": [{ "type": "p", "children": [{ "text": "Method" }], "id": "w1x2y3z4a5" }] },
+                                    { "type": "th", "id": "b6c7d8e9f0", "children": [{ "type": "p", "children": [{ "text": "How It Works" }], "id": "g1h2i3j4k5" }] },
+                                    { "type": "th", "id": "l6m7n8o9p0", "children": [{ "type": "p", "children": [{ "text": "Best For" }], "id": "q1r2s3t4u5" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "v6w7x8y9z0",
+                                "children": [
+                                    { "type": "td", "id": "a1b2c3d4e6", "children": [{ "type": "p", "children": [{ "text": "Google OAuth" }], "id": "f6g7h8i9j1" }] },
+                                    { "type": "td", "id": "k1l2m3n4o6", "children": [{ "type": "p", "children": [{ "text": "Click \"Continue with Google\" and authorize access" }], "id": "p6q7r8s9t1" }] },
+                                    { "type": "td", "id": "u1v2w3x4y6", "children": [{ "type": "p", "children": [{ "text": "Fastest sign-up, no password needed" }], "id": "z6a7b8c9d1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "e1f2g3h4i6",
+                                "children": [
+                                    { "type": "td", "id": "j6k7l8m9n1", "children": [{ "type": "p", "children": [{ "text": "Email + OTP" }], "id": "o1p2q3r4s6" }] },
+                                    { "type": "td", "id": "t6u7v8w9x1", "children": [{ "type": "p", "children": [{ "text": "Enter email, receive a code, verify" }], "id": "y1z2a3b4c6" }] },
+                                    { "type": "td", "id": "d6e7f8g9h1", "children": [{ "type": "p", "children": [{ "text": "Users who prefer not to use Google" }], "id": "i1j2k3l4m6" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "n6o7p8q9r1"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Complete the onboarding tour fully — it only takes a few minutes and covers all the key features you'll use daily." }],
+                        "id": "s1t2u3v4w6"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "info",
+                        "children": [{ "text": "If your OTP code expires before you can enter it, click \"Resend OTP\" to receive a fresh code." }],
+                        "id": "x6y7z8a9b1"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "c1d2e3f4g6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Not receiving the OTP email? Check your spam folder, then try clicking \"Resend OTP.\"" }],
+                        "id": "h6i7j8k9l1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Google sign-in popup not appearing? Ensure pop-ups are allowed in your browser for the HyperBlog site." }],
+                        "id": "m1n2o3p4q6"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Choosing and Applying a Template, Creating and Editing Blog Posts, Branding and Appearance Settings." }],
+                        "id": "r6s7t8u9v1"
+                    }
+                ]
+            },
+            {
+                "id": "p-choosing-applying-template",
+                "title": "Choosing and Applying a Template",
+                "slug": "choosing-and-applying-a-template",
+                "type": "page",
+                "description": "Browse pre-built blog templates and apply one to get your site looking great in minutes.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Choosing and Applying a Template" }],
+                        "id": "w1x2y3z4a6"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "b6c7d8e9f1"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "HyperBlog offers a library of pre-built templates so you can launch a professional-looking blog without designing anything from scratch. Templates provide ready-made layouts, styling, and content structure — just pick one, customize it with your own content, and publish." }],
+                        "id": "g1h2i3j4k6"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "How It Works" }],
+                        "id": "l6m7n8o9p1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Browse a curated library of blog templates designed for different industries and content styles." }],
+                        "id": "q1r2s3t4u6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Preview any template before applying it to see how your blog will look." }],
+                        "id": "v6w7x8y9z1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Apply a template with one click — it sets up your blog's layout and design instantly." }],
+                        "id": "a2b3c4d5e6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Customize the template further by editing the content, changing colors, and updating images to match your brand." }],
+                        "id": "f7g8h9i0j1"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "k2l3m4n5o6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "From your dashboard, navigate to the Templates section." }],
+                        "id": "p7q8r9s0t1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Browse the available templates and click on any that catch your eye to see a preview." }],
+                        "id": "u2v3w4x5y6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Once you've found a template you like, click \"Use Template\" to apply it to your blog." }],
+                        "id": "z7a8b9c0d1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Edit the template content in the editor — replace placeholder text, add your own images, and adjust the layout to suit your needs." }],
+                        "id": "e2f3g4h5i6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Publish the post when you're satisfied, or save it as a draft to continue editing later." }],
+                        "id": "j7k8l9m0n1"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "o2p3q4r5s6"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Templates are a starting point — don't be afraid to modify the structure. Remove sections you don't need and add your own content blocks like polls or FAQs." }],
+                        "id": "t7u8v9w0x1"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "info",
+                        "children": [{ "text": "You can switch templates at any time, but doing so will replace the current layout. Save your existing content before switching." }],
+                        "id": "y2z3a4b5c6"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "d7e8f9g0h1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Template preview not loading? Refresh the page or try a different browser." }],
+                        "id": "i2j3k4l5m6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Customizations not saving? Ensure you click the save button after making changes in the template editor." }],
+                        "id": "n7o8p9q0r1"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Creating and Editing Blog Posts, Branding and Appearance Settings." }],
+                        "id": "s2t3u4v5w6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-writing-publishing",
+        "title": "Writing and Publishing",
+        "slug": "writing-and-publishing",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-creating-editing-posts",
+                "title": "Creating and Editing Blog Posts",
+                "slug": "creating-and-editing-blog-posts",
+                "type": "page",
+                "description": "Use the rich text editor to write posts with auto-save, drafts, custom slugs, and featured images.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Creating and Editing Blog Posts" }],
+                        "id": "x7y8z9a0b1"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "c2d3e4f5g6"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "The blog editor is where you'll spend most of your time in HyperBlog. It's a full-featured rich text editor that supports everything from basic formatting to embedded media, interactive content blocks, and AI-powered enhancements. Your work is automatically saved as you type, so you never lose progress." }],
+                        "id": "h7i8j9k0l1"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "How It Works" }],
+                        "id": "m2n3o4p5q6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Write with a familiar rich text interface — headings, bold, italic, lists, links, images, and more." }],
+                        "id": "r7s8t9u0v1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Auto-save keeps your work safe — drafts are preserved automatically as you write." }],
+                        "id": "w2x3y4z5a6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Customize your post's URL slug to create clean, SEO-friendly links." }],
+                        "id": "b7c8d9e0f1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Add a featured image (thumbnail) that appears in blog listings and social media previews." }],
+                        "id": "g2h3i4j5k6"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Assign categories, tags, and an author to each post for better organization." }],
+                        "id": "l7m8n9o0p1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Preview your post before publishing to see exactly how readers will experience it." }],
+                        "id": "q2r3s4t5u6"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "v7w8x9y0z1"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "From your dashboard, click \"Create New Blog\" or open an existing draft from the blog list." }],
+                        "id": "a2b3c4d5e7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Enter your blog title at the top of the editor." }],
+                        "id": "f7g8h9i0j2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Write your content using the rich text toolbar — format text, add images, embed videos, or insert content blocks." }],
+                        "id": "k2l3m4n5o7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Set a custom URL slug, upload a featured image, and assign categories, tags, and an author in the post settings panel." }],
+                        "id": "p7q8r9s0t2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Click \"Preview\" to see how the post will look to your readers." }],
+                        "id": "u2v3w4x5y7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "When you're ready, click \"Publish\" to make it live, or save it as a draft to continue later." }],
+                        "id": "z7a8b9c0d2"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Post Status Options" }],
+                        "id": "e2f3g4h5i7"
+                    },
+                    {
+                        "type": "table",
+                        "id": "j7k8l9m0n2",
+                        "children": [
+                            {
+                                "type": "tr",
+                                "id": "o2p3q4r5s7",
+                                "children": [
+                                    { "type": "th", "id": "t7u8v9w0x2", "children": [{ "type": "p", "children": [{ "text": "Status" }], "id": "y2z3a4b5c7" }] },
+                                    { "type": "th", "id": "d7e8f9g0h2", "children": [{ "type": "p", "children": [{ "text": "What It Means" }], "id": "i2j3k4l5m7" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "n7o8p9q0r2",
+                                "children": [
+                                    { "type": "td", "id": "s2t3u4v5w7", "children": [{ "type": "p", "children": [{ "text": "Draft" }], "id": "x7y8z9a0b2" }] },
+                                    { "type": "td", "id": "c2d3e4f5g7", "children": [{ "type": "p", "children": [{ "text": "Saved but not visible to readers. You can continue editing anytime." }], "id": "h7i8j9k0l2" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "m2n3o4p5q7",
+                                "children": [
+                                    { "type": "td", "id": "r7s8t9u0v2", "children": [{ "type": "p", "children": [{ "text": "Scheduled" }], "id": "w2x3y4z5a7" }] },
+                                    { "type": "td", "id": "b7c8d9e0f2", "children": [{ "type": "p", "children": [{ "text": "Set to publish automatically at a future date and time." }], "id": "g2h3i4j5k7" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "l7m8n9o0p2",
+                                "children": [
+                                    { "type": "td", "id": "q2r3s4t5u7", "children": [{ "type": "p", "children": [{ "text": "Published" }], "id": "v7w8x9y0z2" }] },
+                                    { "type": "td", "id": "a3b4c5d6e7", "children": [{ "type": "p", "children": [{ "text": "Live and visible to all readers on your blog." }], "id": "f8g9h0i1j2" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "k3l4m5n6o7"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Use short, descriptive URL slugs with keywords — they help with search engine rankings and are easier for readers to share." }],
+                        "id": "p8q9r0s1t2"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "u3v4w5x6y7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Slug shows as taken? Each post needs a unique URL. Try adding a distinguishing word." }],
+                        "id": "z8a9b0c1d2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Featured image not appearing? Make sure you've uploaded the image and saved the post settings." }],
+                        "id": "e3f4g5h6i7"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Scheduling Posts for Later, Adding Content Blocks, Using AI to Enhance Your Content." }],
+                        "id": "j8k9l0m1n2"
+                    }
+                ]
+            },
+            {
+                "id": "p-scheduling-posts",
+                "title": "Scheduling Posts for Later",
+                "slug": "scheduling-posts-for-later",
+                "type": "page",
+                "description": "Set a future publish date so your post goes live automatically at the right time.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Scheduling Posts for Later" }],
+                        "id": "o3p4q5r6s7"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "t8u9v0w1x2"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Not every post needs to go live right away. With HyperBlog's scheduling feature, you can write content ahead of time and set it to publish automatically at a specific date and time. This is perfect for maintaining a consistent posting schedule, aligning with marketing campaigns, or publishing at peak reader times." }],
+                        "id": "y3z4a5b6c7"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "How It Works" }],
+                        "id": "d8e9f0g1h2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Set a future date and time for any blog post to publish automatically." }],
+                        "id": "i3j4k5l6m7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Scheduled posts appear in your blog list with a \"Scheduled\" status so you can track what's queued up." }],
+                        "id": "n8o9p0q1r2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "The system checks every minute and publishes posts when their scheduled time arrives." }],
+                        "id": "s3t4u5v6w7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "You can edit or cancel a scheduled post at any time before it goes live." }],
+                        "id": "x8y9z0a1b2"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "c3d4e5f6g7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Create or open a blog post in the editor." }],
+                        "id": "h8i9j0k1l2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Write and finalize your content." }],
+                        "id": "m3n4o5p6q7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Instead of clicking \"Publish,\" select the scheduling option and pick a future date and time." }],
+                        "id": "r8s9t0u1v2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Confirm the schedule. Your post status will change to \"Scheduled.\"" }],
+                        "id": "w3x4y5z6a7"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "The post will automatically go live at the scheduled time — no further action needed." }],
+                        "id": "b8c9d0e1f2"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "g3h4i5j6k7"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Check your timezone in Settings to make sure posts publish at the time you expect. HyperBlog uses the timezone configured in your blog settings." }],
+                        "id": "l8m9n0o1p2"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "warning",
+                        "children": [{ "text": "Once a scheduled post goes live, it cannot be \"unscheduled\" — you'll need to unpublish it manually if needed." }],
+                        "id": "q3r4s5t6u7"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "v8w9x0y1z2"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Post didn't publish at the scheduled time? Verify your timezone setting matches your intended publish time." }],
+                        "id": "a3b4c5d6e8"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Creating and Editing Blog Posts, Managing Categories and Tags." }],
+                        "id": "f8g9h0i1j3"
+                    }
+                ]
+            },
+            {
+                "id": "p-adding-content-blocks",
+                "title": "Adding Content Blocks",
+                "slug": "adding-content-blocks",
+                "type": "page",
+                "description": "Embed polls, banners, infographics, FAQs, and lead magnets directly into your posts.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Adding Content Blocks" }],
+                        "id": "k3l4m5n6o8"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "p8q9r0s1t3"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Content blocks are interactive elements you can embed directly into your blog posts to boost engagement and capture leads. HyperBlog supports five types of content blocks: Polls, Banners, Infographics, FAQs, and Lead Magnets. Each one serves a different purpose and can be inserted anywhere within your post." }],
+                        "id": "u3v4w5x6y8"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Available Content Blocks" }],
+                        "id": "z8a9b0c1d3"
+                    },
+                    {
+                        "type": "table",
+                        "id": "e3f4g5h6i8",
+                        "children": [
+                            {
+                                "type": "tr",
+                                "id": "j8k9l0m1n3",
+                                "children": [
+                                    { "type": "th", "id": "o3p4q5r6s8", "children": [{ "type": "p", "children": [{ "text": "Block Type" }], "id": "t8u9v0w1x3" }] },
+                                    { "type": "th", "id": "y3z4a5b6c8", "children": [{ "type": "p", "children": [{ "text": "What It Does" }], "id": "d8e9f0g1h3" }] },
+                                    { "type": "th", "id": "i3j4k5l6m8", "children": [{ "type": "p", "children": [{ "text": "Best Used For" }], "id": "n8o9p0q1r3" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "s3t4u5v6w8",
+                                "children": [
+                                    { "type": "td", "id": "x8y9z0a1b3", "children": [{ "type": "p", "children": [{ "text": "Poll" }], "id": "c3d4e5f6g8" }] },
+                                    { "type": "td", "id": "h8i9j0k1l3", "children": [{ "type": "p", "children": [{ "text": "Lets readers vote on a question and see live results" }], "id": "m3n4o5p6q8" }] },
+                                    { "type": "td", "id": "r8s9t0u1v3", "children": [{ "type": "p", "children": [{ "text": "Audience engagement and opinion gathering" }], "id": "w3x4y5z6a8" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "b8c9d0e1f3",
+                                "children": [
+                                    { "type": "td", "id": "g3h4i5j6k8", "children": [{ "type": "p", "children": [{ "text": "Banner" }], "id": "l8m9n0o1p3" }] },
+                                    { "type": "td", "id": "q3r4s5t6u8", "children": [{ "type": "p", "children": [{ "text": "Displays a promotional or informational banner" }], "id": "v8w9x0y1z3" }] },
+                                    { "type": "td", "id": "a4b5c6d7e8", "children": [{ "type": "p", "children": [{ "text": "Announcements, promotions, and CTAs" }], "id": "f9g0h1i2j3" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "k4l5m6n7o8",
+                                "children": [
+                                    { "type": "td", "id": "p9q0r1s2t3", "children": [{ "type": "p", "children": [{ "text": "Infographic" }], "id": "u4v5w6x7y8" }] },
+                                    { "type": "td", "id": "z9a0b1c2d3", "children": [{ "type": "p", "children": [{ "text": "Embeds a visual data representation" }], "id": "e4f5g6h7i8" }] },
+                                    { "type": "td", "id": "j9k0l1m2n3", "children": [{ "type": "p", "children": [{ "text": "Data storytelling and visual content" }], "id": "o4p5q6r7s8" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "t9u0v1w2x3",
+                                "children": [
+                                    { "type": "td", "id": "y4z5a6b7c8", "children": [{ "type": "p", "children": [{ "text": "FAQ" }], "id": "d9e0f1g2h3" }] },
+                                    { "type": "td", "id": "i4j5k6l7m8", "children": [{ "type": "p", "children": [{ "text": "Adds collapsible Q&A sections with SEO schema markup" }], "id": "n9o0p1q2r3" }] },
+                                    { "type": "td", "id": "s4t5u6v7w8", "children": [{ "type": "p", "children": [{ "text": "Answering common questions and boosting search visibility" }], "id": "x9y0z1a2b3" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "c4d5e6f7g8",
+                                "children": [
+                                    { "type": "td", "id": "h9i0j1k2l3", "children": [{ "type": "p", "children": [{ "text": "Lead Magnet" }], "id": "m4n5o6p7q8" }] },
+                                    { "type": "td", "id": "r9s0t1u2v3", "children": [{ "type": "p", "children": [{ "text": "Captures reader info in exchange for a downloadable PDF" }], "id": "w4x5y6z7a8" }] },
+                                    { "type": "td", "id": "b9c0d1e2f3", "children": [{ "type": "p", "children": [{ "text": "Lead generation and growing your email list" }], "id": "g4h5i6j7k8" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "l9m0n1o2p3"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Open a blog post in the editor." }],
+                        "id": "q4r5s6t7u8"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Place your cursor where you want the content block to appear." }],
+                        "id": "v9w0x1y2z3"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Use the insert menu or block picker to select the type of content block you want to add." }],
+                        "id": "a4b5c6d7e9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Configure the block — for example, add poll options, write FAQ questions, or upload a lead magnet PDF." }],
+                        "id": "f9g0h1i2j4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Save the post. The content block will appear inline within your blog content for readers." }],
+                        "id": "k4l5m6n7o9"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "p9q0r1s2t4"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Place polls and lead magnets mid-article rather than at the very end — readers are more likely to engage when they're already invested in the content." }],
+                        "id": "u4v5w6x7y9"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "info",
+                        "children": [{ "text": "FAQ blocks automatically generate structured data (schema markup), which can help your post appear in Google's FAQ rich results." }],
+                        "id": "z9a0b1c2d4"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "e4f5g6h7i9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Content block not appearing in the published post? Make sure you saved the post after inserting the block." }],
+                        "id": "j9k0l1m2n4"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Using AI to Enhance Your Content, Collecting Leads with Lead Magnets." }],
+                        "id": "o4p5q6r7s9"
+                    }
+                ]
+            },
+            {
+                "id": "p-using-ai-enhance",
+                "title": "Using AI to Enhance Your Content",
+                "slug": "using-ai-to-enhance-your-content",
+                "type": "page",
+                "description": "Improve your writing, get SEO suggestions, and extract keywords using AI-powered tools and credits.",
+                "content": [
+                    {
+                        "type": "h1",
+                        "children": [{ "text": "Using AI to Enhance Your Content" }],
+                        "id": "t9u0v1w2x4"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Overview" }],
+                        "id": "y4z5a6b7c9"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "HyperBlog includes built-in AI tools that help you write better blog posts, optimize for search engines, and find the right keywords — all without leaving the editor. These features use AI credits from your subscription plan, so you can enhance your content as much as your plan allows." }],
+                        "id": "d9e0f1g2h4"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "How It Works" }],
+                        "id": "i4j5k6l7m9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "AI Blog Enhancement — automatically improves your blog's writing quality, tone, and clarity." }],
+                        "id": "n9o0p1q2r4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "AI SEO Suggestions — analyzes your content and provides specific recommendations to improve search engine visibility. You can accept or decline each suggestion." }],
+                        "id": "s4t5u6v7w9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Keyword Extraction — generates relevant keywords from your blog title to help you target the right search terms." }],
+                        "id": "x9y0z1a2b4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "Each AI action uses credits from your plan. You can purchase additional credits if needed." }],
+                        "id": "c4d5e6f7g9"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Steps" }],
+                        "id": "h9i0j1k2l4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Open a blog post in the editor and write your initial content." }],
+                        "id": "m4n5o6p7q9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Click the AI enhancement button to automatically improve your writing." }],
+                        "id": "r9s0t1u2v4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Review the AI-improved version and accept the changes or revert to your original." }],
+                        "id": "w4x5y6z7a9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Use the SEO suggestions tool to get specific optimization recommendations. Accept or decline each one individually." }],
+                        "id": "b9c0d1e2f4"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "decimal",
+                        "children": [{ "text": "Run keyword extraction to discover relevant keywords based on your post title, then incorporate them into your content." }],
+                        "id": "g4h5i6j7k9"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "AI Credit Usage" }],
+                        "id": "l9m0n1o2p4"
+                    },
+                    {
+                        "type": "table",
+                        "id": "q4r5s6t7u9",
+                        "children": [
+                            {
+                                "type": "tr",
+                                "id": "v9w0x1y2z4",
+                                "children": [
+                                    { "type": "th", "id": "a5b6c7d8e9", "children": [{ "type": "p", "children": [{ "text": "AI Feature" }], "id": "f0g1h2i3j4" }] },
+                                    { "type": "th", "id": "k5l6m7n8o9", "children": [{ "type": "p", "children": [{ "text": "What It Does" }], "id": "p0q1r2s3t4" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "u5v6w7x8y9",
+                                "children": [
+                                    { "type": "td", "id": "z0a1b2c3d4", "children": [{ "type": "p", "children": [{ "text": "Blog Enhancement" }], "id": "e5f6g7h8i9" }] },
+                                    { "type": "td", "id": "j0k1l2m3n4", "children": [{ "type": "p", "children": [{ "text": "Rewrites and improves your content's clarity and tone" }], "id": "o5p6q7r8s9" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "t0u1v2w3x4",
+                                "children": [
+                                    { "type": "td", "id": "y5z6a7b8c9", "children": [{ "type": "p", "children": [{ "text": "SEO Suggestions" }], "id": "d0e1f2g3h4" }] },
+                                    { "type": "td", "id": "i5j6k7l8m9", "children": [{ "type": "p", "children": [{ "text": "Provides actionable recommendations you can accept or decline" }], "id": "n0o1p2q3r4" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr",
+                                "id": "s5t6u7v8w9",
+                                "children": [
+                                    { "type": "td", "id": "x0y1z2a3b4", "children": [{ "type": "p", "children": [{ "text": "Keyword Extraction" }], "id": "c5d6e7f8g9" }] },
+                                    { "type": "td", "id": "h0i1j2k3l4", "children": [{ "type": "p", "children": [{ "text": "Generates relevant search keywords from your title" }], "id": "m5n6o7p8q9" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Best Practices" }],
+                        "id": "r0s1t2u3v4"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "tip",
+                        "children": [{ "text": "Write a solid first draft before using AI enhancement. The AI works best when it has meaningful content to improve rather than a skeleton outline." }],
+                        "id": "w5x6y7z8a9"
+                    },
+                    {
+                        "type": "callout",
+                        "variant": "info",
+                        "children": [{ "text": "You can check your remaining AI credits and purchase more from the Subscription section in your dashboard." }],
+                        "id": "b0c1d2e3f4"
+                    },
+                    {
+                        "type": "h2",
+                        "children": [{ "text": "Troubleshooting" }],
+                        "id": "g5h6i7j8k9"
+                    },
+                    {
+                        "type": "p",
+                        "indent": 1,
+                        "listStyleType": "disc",
+                        "children": [{ "text": "AI feature not responding? Check that you have remaining credits on your plan." }],
+                        "id": "l0m1n2o3p4"
+                    },
+                    {
+                        "type": "p",
+                        "children": [{ "text": "Related topics: Creating and Editing Blog Posts, Optimizing SEO and Meta Settings, Managing Your Subscription and Credits." }],
+                        "id": "q5r6s7t8u9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-organizing-content",
+        "title": "Organizing Your Content",
+        "slug": "organizing-your-content",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-categories-tags",
+                "title": "Managing Categories and Tags",
+                "slug": "managing-categories-and-tags",
+                "type": "page",
+                "description": "Create and assign categories and tags to keep your blog organized and easy to browse.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Managing Categories and Tags" }], "id": "v0w1x2y3z4" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "a5b6c7d8e0" },
+                    { "type": "p", "children": [{ "text": "Categories and tags help you organize your blog content so readers can easily find what they're looking for. Categories represent broad topics (like \"Marketing\" or \"Engineering\"), while tags are more specific labels (like \"email campaigns\" or \"React tips\"). Together, they make your blog browsable and help search engines understand your content structure." }], "id": "f5g6h7i8j0" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "k5l6m7n8o0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Create categories to group posts by broad topics." }], "id": "p5q6r7s8t0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Create tags for more specific, cross-cutting labels." }], "id": "u5v6w7x8y0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Assign one or more categories and tags to each blog post." }], "id": "z5a6b7c8d0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Readers can filter your blog by category or tag to find relevant posts." }], "id": "e5f6g7h8i0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Edit or delete categories and tags at any time from the dashboard." }], "id": "j5k6l7m8n0" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "o5p6q7r8s0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to the Categories or Tags section from your dashboard sidebar." }], "id": "t5u6v7w8x0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Click \"Add Category\" or \"Add Tag\" and enter a name." }], "id": "y5z6a7b8c0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Save the new category or tag." }], "id": "d5e6f7g8h0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "When editing a blog post, select the relevant categories and tags from the post settings panel." }], "id": "i5j6k7l8m0" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "n5o6p7q8r0" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Keep your category list short and broad (5-10 categories is ideal). Use tags for specifics. Too many categories confuse readers." }], "id": "s5t6u7v8w0" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "x5y6z7a8b0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Deleted a category by accident? Posts that used it will remain published but will no longer be associated with that category." }], "id": "c5d6e7f8g0" },
+                    { "type": "p", "children": [{ "text": "Related topics: Creating and Editing Blog Posts, Managing Authors and Profiles." }], "id": "h5i6j7k8l0" }
+                ]
+            },
+            {
+                "id": "p-managing-authors",
+                "title": "Managing Authors and Profiles",
+                "slug": "managing-authors-and-profiles",
+                "type": "page",
+                "description": "Add multiple authors with bios, profile photos, and social links to your blog.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Managing Authors and Profiles" }], "id": "m5n6o7p8q0" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "r5s6t7u8v0" },
+                    { "type": "p", "children": [{ "text": "If multiple people contribute to your blog, you can create individual author profiles for each one. Author profiles include a name, bio, designation, profile photo, and links to social media accounts. Each blog post can be attributed to a specific author, and readers can view all posts by a given author on their dedicated profile page." }], "id": "w5x6y7z8a0" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "b5c6d7e8f0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Create author profiles with a name, role/designation, bio, and profile image." }], "id": "g5h6i7j8k0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Add social media links for Facebook, X (Twitter), LinkedIn, and a personal website." }], "id": "l5m6n7o8p0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Assign an author to each blog post in the post editor." }], "id": "q5r6s7t8u0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Each author gets an automatic profile page listing all their published posts." }], "id": "v5w6x7y8z0" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "a6b7c8d9e0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Go to Settings and select the Authors section." }], "id": "f6g7h8i9j0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Click \"Add Author\" and fill in the name, designation, and bio." }], "id": "k6l7m8n9o0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Upload a profile photo and add social media links." }], "id": "p6q7r8s9t0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Save the author profile. It's now available to assign when editing blog posts." }], "id": "u6v7w8x9y0" },
+                    { "type": "h2", "children": [{ "text": "Author Profile Fields" }], "id": "z6a7b8c9d0" },
+                    {
+                        "type": "table", "id": "e6f7g8h9i0", "children": [
+                            {
+                                "type": "tr", "id": "j6k7l8m9n0", "children": [
+                                    { "type": "th", "id": "o6p7q8r9s0", "children": [{ "type": "p", "children": [{ "text": "Field" }], "id": "t6u7v8w9x0" }] },
+                                    { "type": "th", "id": "y6z7a8b9c0", "children": [{ "type": "p", "children": [{ "text": "Description" }], "id": "d6e7f8g9h0" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "i6j7k8l9m0", "children": [
+                                    { "type": "td", "id": "n6o7p8q9r0", "children": [{ "type": "p", "children": [{ "text": "Name" }], "id": "s6t7u8v9w0" }] },
+                                    { "type": "td", "id": "x6y7z8a9b0", "children": [{ "type": "p", "children": [{ "text": "The author's display name shown on posts" }], "id": "c6d7e8f9g0" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "h6i7j8k9l0", "children": [
+                                    { "type": "td", "id": "m6n7o8p9q0", "children": [{ "type": "p", "children": [{ "text": "Designation" }], "id": "r6s7t8u9v0" }] },
+                                    { "type": "td", "id": "w6x7y8z9a0", "children": [{ "type": "p", "children": [{ "text": "Role or title (e.g., \"Senior Editor\")" }], "id": "b6c7d8e9f0" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "g6h7i8j9k0", "children": [
+                                    { "type": "td", "id": "l6m7n8o9p0", "children": [{ "type": "p", "children": [{ "text": "Bio" }], "id": "q6r7s8t9u0" }] },
+                                    { "type": "td", "id": "v6w7x8y9z0", "children": [{ "type": "p", "children": [{ "text": "Short description of the author" }], "id": "a7b8c9d0e1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "f7g8h9i0j1", "children": [
+                                    { "type": "td", "id": "k7l8m9n0o1", "children": [{ "type": "p", "children": [{ "text": "Social Links" }], "id": "p7q8r9s0t1" }] },
+                                    { "type": "td", "id": "u7v8w9x0y1", "children": [{ "type": "p", "children": [{ "text": "Facebook, X/Twitter, LinkedIn, and website URLs" }], "id": "z7a8b9c0d1" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "e7f8g9h0i1" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Complete author profiles build trust with readers. Always include a photo and a brief, authentic bio." }], "id": "j7k8l9m0n1" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "o7p8q9r0s1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Author not showing on a post? Make sure you selected the author in the post editor and saved." }], "id": "t7u8v9w0x1" },
+                    { "type": "p", "children": [{ "text": "Related topics: Managing Categories and Tags, Branding and Appearance Settings." }], "id": "y7z8a9b0c1" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-growing-audience",
+        "title": "Growing Your Audience",
+        "slug": "growing-your-audience",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-newsletter-setup",
+                "title": "Setting Up Your Newsletter",
+                "slug": "setting-up-your-newsletter",
+                "type": "page",
+                "description": "Activate your newsletter, choose a template, and configure sending options to reach subscribers.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Setting Up Your Newsletter" }], "id": "d7e8f9g0h1" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "i7j8k9l0m1" },
+                    { "type": "p", "children": [{ "text": "HyperBlog's newsletter feature lets you engage your audience directly through email. Choose from professionally designed templates, activate your newsletter, and start building a subscriber list. It's a built-in way to keep readers coming back without needing a separate email marketing tool." }], "id": "n7o8p9q0r1" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "s7t8u9v0w1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Choose from multiple newsletter templates — including classic full-width and split-panel layouts." }], "id": "x7y8z9a0b1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Activate your newsletter to start collecting subscribers from your blog." }], "id": "c7d8e9f0g1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Customize the template to match your brand's look and feel." }], "id": "h7i8j9k0l1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Subscribers collected through your newsletter appear in your Leads section for easy management." }], "id": "m7n8o9p0q1" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "r7s8t9u0v1" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to the Newsletter section from your dashboard." }], "id": "w7x8y9z0a1" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Browse the available newsletter templates and select the one that fits your style." }], "id": "b7c8d9e0f1" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Customize the template content — update the heading, body text, and call-to-action." }], "id": "g7h8i9j0k1" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Activate the newsletter to make it live on your blog." }], "id": "l7m8n9o0p1" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "q7r8s9t0u1" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Keep your newsletter signup form visible — the header or footer of your blog are great placements for maximum visibility." }], "id": "v7w8x9y0z1" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "a8b9c0d1e2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Newsletter not showing on your blog? Make sure you've activated it after selecting a template." }], "id": "f8g9h0i1j2" },
+                    { "type": "p", "children": [{ "text": "Related topics: Collecting Leads with Lead Magnets, Viewing and Exporting Your Leads." }], "id": "k8l9m0n1o2" }
+                ]
+            },
+            {
+                "id": "p-collecting-leads",
+                "title": "Collecting Leads with Lead Magnets",
+                "slug": "collecting-leads-with-lead-magnets",
+                "type": "page",
+                "description": "Offer downloadable PDFs and gated content to capture visitor information through your posts.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Collecting Leads with Lead Magnets" }], "id": "p8q9r0s1t2" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "u8v9w0x1y2" },
+                    { "type": "p", "children": [{ "text": "Lead magnets let you capture reader contact information by offering valuable content in return — like downloadable PDFs, guides, or checklists. When a reader fills out the lead magnet form embedded in your blog post, their information is automatically saved to your Leads section. You can also browse a library of pre-built lead magnet templates to get started quickly." }], "id": "z8a9b0c1d2" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "e8f9g0h1i2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Add a lead magnet content block to any blog post." }], "id": "j8k9l0m1n2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Upload a PDF or other downloadable file that readers receive after submitting their info." }], "id": "o8p9q0r1s2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Customize the form — capture name, email, phone, or other fields you need." }], "id": "t8u9v0w1x2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Browse the Lead Library for pre-built lead magnet templates you can use immediately." }], "id": "y8z9a0b1c2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "All captured leads are stored in your dashboard with source attribution — you'll know which blog post generated each lead." }], "id": "d8e9f0g1h2" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "i8j9k0l1m2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Open a blog post in the editor." }], "id": "n8o9p0q1r2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Insert a Lead Magnet content block where you want it to appear." }], "id": "s8t9u0v1w2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Upload the downloadable file (PDF) and configure the form fields." }], "id": "x8y9z0a1b2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Publish the post. When readers fill out the form, their information is captured automatically." }], "id": "c8d9e0f1g2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "View captured leads in the Leads section of your dashboard." }], "id": "h8i9j0k1l2" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "m8n9o0p1q2" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "The more valuable the downloadable content, the more leads you'll capture. Offer genuinely useful resources like checklists, templates, or guides." }], "id": "r8s9t0u1v2" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "w8x9y0z1a2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Leads not appearing in your dashboard? Confirm the lead magnet block was saved in the published post." }], "id": "b8c9d0e1f2" },
+                    { "type": "p", "children": [{ "text": "Related topics: Viewing and Exporting Your Leads, Adding Content Blocks." }], "id": "g8h9i0j1k2" }
+                ]
+            },
+            {
+                "id": "p-viewing-exporting-leads",
+                "title": "Viewing and Exporting Your Leads",
+                "slug": "viewing-and-exporting-your-leads",
+                "type": "page",
+                "description": "Filter, browse, and export the leads collected from your lead magnets and newsletter sign-ups.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Viewing and Exporting Your Leads" }], "id": "l8m9n0o1p2" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "q8r9s0t1u2" },
+                    { "type": "p", "children": [{ "text": "Every lead captured through lead magnets and newsletter sign-ups is stored in your dashboard's Leads section. You can browse all your leads, filter them by the blog post that generated them, and export the data as a CSV file for use in your CRM, email marketing tool, or spreadsheet." }], "id": "v8w9x0y1z2" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "a9b0c1d2e3" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "View a complete list of all collected leads in one central location." }], "id": "f9g0h1i2j3" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Filter leads by blog post, source type (lead magnet or newsletter), and date." }], "id": "k9l0m1n2o3" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "See each lead's name, email, phone number, source blog, and submission date." }], "id": "p9q0r1s2t3" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Export your leads as a CSV file with one click." }], "id": "u9v0w1x2y3" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "z9a0b1c2d3" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to the Leads section from your dashboard sidebar." }], "id": "e9f0g1h2i3" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Browse the list of captured leads. Use the filter options to narrow by blog post or source type." }], "id": "j9k0l1m2n3" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Click on any lead to see their full details." }], "id": "o9p0q1r2s3" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Click \"Export CSV\" to download your leads as a spreadsheet file." }], "id": "t9u0v1w2x3" },
+                    { "type": "h2", "children": [{ "text": "Lead Data Fields" }], "id": "y9z0a1b2c3" },
+                    {
+                        "type": "table", "id": "d9e0f1g2h3", "children": [
+                            {
+                                "type": "tr", "id": "i9j0k1l2m3", "children": [
+                                    { "type": "th", "id": "n9o0p1q2r3", "children": [{ "type": "p", "children": [{ "text": "Field" }], "id": "s9t0u1v2w3" }] },
+                                    { "type": "th", "id": "x9y0z1a2b3", "children": [{ "type": "p", "children": [{ "text": "Description" }], "id": "c9d0e1f2g3" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "h9i0j1k2l3", "children": [
+                                    { "type": "td", "id": "m9n0o1p2q3", "children": [{ "type": "p", "children": [{ "text": "Name" }], "id": "r9s0t1u2v3" }] },
+                                    { "type": "td", "id": "w9x0y1z2a3", "children": [{ "type": "p", "children": [{ "text": "The lead's full name" }], "id": "b9c0d1e2f3" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "g9h0i1j2k3", "children": [
+                                    { "type": "td", "id": "l9m0n1o2p3", "children": [{ "type": "p", "children": [{ "text": "Email" }], "id": "q9r0s1t2u3" }] },
+                                    { "type": "td", "id": "v9w0x1y2z3", "children": [{ "type": "p", "children": [{ "text": "Email address provided" }], "id": "a0b1c2d3e4" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "f0g1h2i3j4", "children": [
+                                    { "type": "td", "id": "k0l1m2n3o4", "children": [{ "type": "p", "children": [{ "text": "Phone" }], "id": "p0q1r2s3t4" }] },
+                                    { "type": "td", "id": "u0v1w2x3y4", "children": [{ "type": "p", "children": [{ "text": "Phone number (if collected)" }], "id": "z0a1b2c3d4" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "e0f1g2h3i4", "children": [
+                                    { "type": "td", "id": "j0k1l2m3n4", "children": [{ "type": "p", "children": [{ "text": "Source Blog" }], "id": "o0p1q2r3s4" }] },
+                                    { "type": "td", "id": "t0u1v2w3x4", "children": [{ "type": "p", "children": [{ "text": "Which blog post generated this lead" }], "id": "y0z1a2b3c4" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "d0e1f2g3h4", "children": [
+                                    { "type": "td", "id": "i0j1k2l3m4", "children": [{ "type": "p", "children": [{ "text": "Date" }], "id": "n0o1p2q3r4" }] },
+                                    { "type": "td", "id": "s0t1u2v3w4", "children": [{ "type": "p", "children": [{ "text": "When the lead was captured" }], "id": "x0y1z2a3b4" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "c0d1e2f3g4" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Export your leads regularly and import them into your email marketing tool to stay engaged with your audience." }], "id": "h0i1j2k3l4" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "m0n1o2p3q4" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "CSV export not downloading? Try a different browser or check your download permissions." }], "id": "r0s1t2u3v4" },
+                    { "type": "p", "children": [{ "text": "Related topics: Collecting Leads with Lead Magnets, Setting Up Your Newsletter." }], "id": "w0x1y2z3a4" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-customizing-blog",
+        "title": "Customizing Your Blog",
+        "slug": "customizing-your-blog",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-branding-appearance",
+                "title": "Branding and Appearance Settings",
+                "slug": "branding-and-appearance-settings",
+                "type": "page",
+                "description": "Set your organization name, logo, accent color, custom fonts, favicon, CSS, and color palettes.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Branding and Appearance Settings" }], "id": "b1c2d3e4f5" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "g1h2i3j4k5" },
+                    { "type": "p", "children": [{ "text": "Make your blog truly yours by customizing its appearance. HyperBlog gives you control over your organization name, logo, brand colors, typography, favicon, and even custom CSS. These settings apply across your entire blog, ensuring a consistent, professional look that matches your brand." }], "id": "l1m2n3o4p5" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "q1r2s3t4u5" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Set your organization name and upload your logo — these appear in your blog header." }], "id": "v1w2x3y4z5" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Choose an accent color that applies to buttons, links, and highlights throughout your blog." }], "id": "a2b3c4d5e6" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Select custom fonts for your blog's UI and post content separately." }], "id": "f2g3h4i5j6" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Upload a favicon (the small icon shown in browser tabs)." }], "id": "k2l3m4n5o6" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Add custom CSS for advanced styling beyond what the built-in options provide." }], "id": "p2q3r4s5t6" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Configure color palettes for consistent theming." }], "id": "u2v3w4x5y6" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Toggle options like fixed navbar, HyperBlog branding visibility, and category filters." }], "id": "z2a3b4c5d6" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "e2f3g4h5i6" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to Settings from your dashboard sidebar." }], "id": "j2k3l4m5n6" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Select the General tab to set your organization name, logo, accent color, and blog description." }], "id": "o2p3q4r5s6" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Switch to the Advanced tab to configure custom CSS, fonts, favicon, and color palettes." }], "id": "t2u3v4w5x6" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Save your changes. They take effect immediately on your live blog." }], "id": "y2z3a4b5c6" },
+                    { "type": "h2", "children": [{ "text": "Settings Reference" }], "id": "d2e3f4g5h6" },
+                    {
+                        "type": "table", "id": "i2j3k4l5m6", "children": [
+                            {
+                                "type": "tr", "id": "n2o3p4q5r6", "children": [
+                                    { "type": "th", "id": "s2t3u4v5w6", "children": [{ "type": "p", "children": [{ "text": "Setting" }], "id": "x2y3z4a5b6" }] },
+                                    { "type": "th", "id": "c2d3e4f5g6", "children": [{ "type": "p", "children": [{ "text": "Where to Find It" }], "id": "h2i3j4k5l6" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "m2n3o4p5q6", "children": [
+                                    { "type": "td", "id": "r2s3t4u5v6", "children": [{ "type": "p", "children": [{ "text": "Organization Name & Logo" }], "id": "w2x3y4z5a6" }] },
+                                    { "type": "td", "id": "b2c3d4e5f6", "children": [{ "type": "p", "children": [{ "text": "Settings → General" }], "id": "g2h3i4j5k6" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "l2m3n4o5p6", "children": [
+                                    { "type": "td", "id": "q2r3s4t5u6", "children": [{ "type": "p", "children": [{ "text": "Accent Color" }], "id": "v2w3x4y5z6" }] },
+                                    { "type": "td", "id": "a3b4c5d6e7", "children": [{ "type": "p", "children": [{ "text": "Settings → General" }], "id": "f3g4h5i6j7" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "k3l4m5n6o7", "children": [
+                                    { "type": "td", "id": "p3q4r5s6t7", "children": [{ "type": "p", "children": [{ "text": "Custom Fonts & Favicon" }], "id": "u3v4w5x6y7" }] },
+                                    { "type": "td", "id": "z3a4b5c6d7", "children": [{ "type": "p", "children": [{ "text": "Settings → Advanced" }], "id": "e3f4g5h6i7" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "j3k4l5m6n7", "children": [
+                                    { "type": "td", "id": "o3p4q5r6s7", "children": [{ "type": "p", "children": [{ "text": "Custom CSS" }], "id": "t3u4v5w6x7" }] },
+                                    { "type": "td", "id": "y3z4a5b6c7", "children": [{ "type": "p", "children": [{ "text": "Settings → Advanced" }], "id": "d3e4f5g6h7" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "i3j4k5l6m7" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Upload a favicon — it's a small detail that makes your blog look polished and professional in browser tabs and bookmarks." }], "id": "n3o4p5q6r7" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "s3t4u5v6w7" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Custom CSS not taking effect? Clear your browser cache and reload the page." }], "id": "x3y4z5a6b7" },
+                    { "type": "p", "children": [{ "text": "Related topics: Configuring Navigation Menus and CTAs, Connecting a Custom Domain." }], "id": "c3d4e5f6g7" }
+                ]
+            },
+            {
+                "id": "p-navigation-ctas",
+                "title": "Configuring Navigation Menus and CTAs",
+                "slug": "configuring-navigation-menus-and-ctas",
+                "type": "page",
+                "description": "Build header and footer menus and add call-to-action buttons to guide your visitors.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Configuring Navigation Menus and CTAs" }], "id": "h3i4j5k6l7" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "m3n4o5p6q7" },
+                    { "type": "p", "children": [{ "text": "Navigation menus and call-to-action (CTA) buttons guide your visitors through your blog and direct them to important pages. HyperBlog lets you create custom header menus, footer menus, and a prominent CTA button in your header — all without writing any code." }], "id": "r3s4t5u6v7" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "w3x4y5z6a7" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Create a header navigation menu with links to your most important pages." }], "id": "b3c4d5e6f7" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Build a footer menu for secondary links, legal pages, or social profiles." }], "id": "g3h4i5j6k7" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Add nested menu items for dropdown-style navigation." }], "id": "l3m4n5o6p7" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Configure a CTA button in your header (e.g., \"Subscribe\" or \"Get Started\") with a custom label and link." }], "id": "q3r4s5t6u7" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "v3w4x5y6z7" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Go to Settings and select the Navigation tab." }], "id": "a4b5c6d7e8" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Add menu items for your header and footer. Enter a label and the URL each link should point to." }], "id": "f4g5h6i7j8" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Optionally nest items under a parent to create dropdown menus." }], "id": "k4l5m6n7o8" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "To add a header CTA button, enter the button text and destination URL." }], "id": "p4q5r6s7t8" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Save your changes. The updated navigation appears immediately on your blog." }], "id": "u4v5w6x7y8" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "z4a5b6c7d8" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Keep your header menu short — 4 to 6 items is ideal. Too many links overwhelm visitors and reduce click-through rates." }], "id": "e4f5g6h7i8" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "j4k5l6m7n8" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Menu changes not showing? Make sure you saved and hard-refresh your blog page." }], "id": "o4p5q6r7s8" },
+                    { "type": "p", "children": [{ "text": "Related topics: Branding and Appearance Settings, Connecting a Custom Domain." }], "id": "t4u5v6w7x8" }
+                ]
+            },
+            {
+                "id": "p-custom-domain",
+                "title": "Connecting a Custom Domain",
+                "slug": "connecting-a-custom-domain",
+                "type": "page",
+                "description": "Link your own domain, set up a subdomain, or configure sub-folder routing for your blog.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Connecting a Custom Domain" }], "id": "y4z5a6b7c8" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "d4e5f6g7h8" },
+                    { "type": "p", "children": [{ "text": "By default, your HyperBlog is available on a HyperBlog subdomain. But if you want your blog to live at your own domain — like blog.yourcompany.com or yourcompany.com/blog — you can connect a custom domain. HyperBlog supports full custom domains, subdomains, and sub-folder routing." }], "id": "i4j5k6l7m8" },
+                    { "type": "h2", "children": [{ "text": "Domain Options" }], "id": "n4o5p6q7r8" },
+                    {
+                        "type": "table", "id": "s4t5u6v7w8", "children": [
+                            {
+                                "type": "tr", "id": "x4y5z6a7b8", "children": [
+                                    { "type": "th", "id": "c4d5e6f7g8", "children": [{ "type": "p", "children": [{ "text": "Option" }], "id": "h4i5j6k7l8" }] },
+                                    { "type": "th", "id": "m4n5o6p7q8", "children": [{ "type": "p", "children": [{ "text": "Example" }], "id": "r4s5t6u7v8" }] },
+                                    { "type": "th", "id": "w4x5y6z7a8", "children": [{ "type": "p", "children": [{ "text": "Best For" }], "id": "b4c5d6e7f8" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "g4h5i6j7k8", "children": [
+                                    { "type": "td", "id": "l4m5n6o7p8", "children": [{ "type": "p", "children": [{ "text": "Custom Domain" }], "id": "q4r5s6t7u8" }] },
+                                    { "type": "td", "id": "v4w5x6y7z8", "children": [{ "type": "p", "children": [{ "text": "blog.yoursite.com" }], "id": "a5b6c7d8e9" }] },
+                                    { "type": "td", "id": "f5g6h7i8j9", "children": [{ "type": "p", "children": [{ "text": "Standalone blog with your brand" }], "id": "k5l6m7n8o9" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "p5q6r7s8t9", "children": [
+                                    { "type": "td", "id": "u5v6w7x8y9", "children": [{ "type": "p", "children": [{ "text": "Sub-folder" }], "id": "z5a6b7c8d9" }] },
+                                    { "type": "td", "id": "e5f6g7h8i9", "children": [{ "type": "p", "children": [{ "text": "yoursite.com/blog" }], "id": "j5k6l7m8n9" }] },
+                                    { "type": "td", "id": "o5p6q7r8s9", "children": [{ "type": "p", "children": [{ "text": "Blog as part of your main website" }], "id": "t5u6v7w8x9" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "y5z6a7b8c9", "children": [
+                                    { "type": "td", "id": "d5e6f7g8h9", "children": [{ "type": "p", "children": [{ "text": "Default" }], "id": "i5j6k7l8m9" }] },
+                                    { "type": "td", "id": "n5o6p7q8r9", "children": [{ "type": "p", "children": [{ "text": "yourname.hyperblog.com" }], "id": "s5t6u7v8w9" }] },
+                                    { "type": "td", "id": "x5y6z7a8b9", "children": [{ "type": "p", "children": [{ "text": "Quick setup, no domain needed" }], "id": "c5d6e7f8g9" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "h5i6j7k8l9" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to the Custom Domain section from your dashboard." }], "id": "m5n6o7p8q9" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Enter the domain or subdomain you want to connect." }], "id": "r5s6t7u8v9" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Follow the on-screen instructions to update your DNS records with your domain provider." }], "id": "w5x6y7z8a9" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Once DNS propagation completes, your blog will be accessible at your custom domain." }], "id": "b5c6d7e8f9" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "g5h6i7j8k9" },
+                    { "type": "callout", "variant": "warning", "children": [{ "text": "DNS changes can take up to 48 hours to propagate. If your domain isn't working immediately, wait and try again later." }], "id": "l5m6n7o8p9" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Enable the automatic redirect option so visitors to your default HyperBlog URL are seamlessly sent to your custom domain." }], "id": "q5r6s7t8u9" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "v5w6x7y8z9" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Domain not connecting? Double-check your DNS records match the values shown in the setup wizard." }], "id": "a6b7c8d9e0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "To disconnect a domain, go back to the Custom Domain section and click \"Disconnect.\"" }], "id": "f6g7h8i9j0" },
+                    { "type": "p", "children": [{ "text": "Related topics: Branding and Appearance Settings, Optimizing SEO and Meta Settings." }], "id": "k6l7m8n9o0" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-seo-discoverability",
+        "title": "SEO and Discoverability",
+        "slug": "seo-and-discoverability",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-seo-meta-settings",
+                "title": "Optimizing SEO and Meta Settings",
+                "slug": "optimizing-seo-and-meta-settings",
+                "type": "page",
+                "description": "Configure meta titles, descriptions, robots.txt, Google Analytics 4, AdSense, and cookie consent popups.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Optimizing SEO and Meta Settings" }], "id": "p6q7r8s9t0" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "u6v7w8x9y0" },
+                    { "type": "p", "children": [{ "text": "Search engine optimization (SEO) settings help your blog rank higher in search results and attract more organic traffic. HyperBlog gives you full control over meta tags, Google Analytics integration, Google AdSense for monetization, robots.txt for search crawler management, and cookie consent popups for privacy compliance." }], "id": "z6a7b8c9d0" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "e6f7g8h9i0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Set meta titles and descriptions that appear in search engine results." }], "id": "j6k7l8m9n0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Connect Google Analytics 4 to track visitor behavior, page views, and traffic sources." }], "id": "o6p7q8r9s0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Set up Google AdSense to monetize your blog with ads." }], "id": "t6u7v8w9x0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Customize your robots.txt to control which pages search engines can index." }], "id": "y6z7a8b9c0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Enable a cookie consent popup and link to your privacy policy for regulatory compliance." }], "id": "d6e7f8g9h0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Toggle visibility of post dates, author names, social sharing buttons, and a reading progress bar." }], "id": "i6j7k8l9m0" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Add miscellaneous scripts (like tracking pixels) to your blog's head section." }], "id": "n6o7p8q9r0" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "s6t7u8v9w0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Go to Settings and select the SEO tab." }], "id": "x6y7z8a9b0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Enter your blog's meta title and meta description." }], "id": "c6d7e8f9g0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Paste your Google Analytics 4 measurement ID and/or AdSense publisher ID in the respective fields." }], "id": "h6i7j8k9l0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Review and customize your robots.txt if you want to exclude specific pages from search indexing." }], "id": "m6n7o8p9q0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Enable the cookie popup and add your privacy policy URL." }], "id": "r6s7t8u9v0" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Save your changes." }], "id": "w6x7y8z9a0" },
+                    { "type": "h2", "children": [{ "text": "SEO Settings Reference" }], "id": "b6c7d8e9f0" },
+                    {
+                        "type": "table", "id": "g6h7i8j9k0", "children": [
+                            {
+                                "type": "tr", "id": "l6m7n8o9p0", "children": [
+                                    { "type": "th", "id": "q6r7s8t9u0", "children": [{ "type": "p", "children": [{ "text": "Setting" }], "id": "v6w7x8y9z0" }] },
+                                    { "type": "th", "id": "a7b8c9d0e1", "children": [{ "type": "p", "children": [{ "text": "Purpose" }], "id": "f7g8h9i0j1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "k7l8m9n0o1", "children": [
+                                    { "type": "td", "id": "p7q8r9s0t1", "children": [{ "type": "p", "children": [{ "text": "Meta Title" }], "id": "u7v8w9x0y1" }] },
+                                    { "type": "td", "id": "z7a8b9c0d1", "children": [{ "type": "p", "children": [{ "text": "Appears in search results and browser tabs" }], "id": "e7f8g9h0i1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "j7k8l9m0n1", "children": [
+                                    { "type": "td", "id": "o7p8q9r0s1", "children": [{ "type": "p", "children": [{ "text": "Google Analytics 4" }], "id": "t7u8v9w0x1" }] },
+                                    { "type": "td", "id": "y7z8a9b0c1", "children": [{ "type": "p", "children": [{ "text": "Tracks visitor behavior and traffic sources" }], "id": "d7e8f9g0h1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "i7j8k9l0m1", "children": [
+                                    { "type": "td", "id": "n7o8p9q0r1", "children": [{ "type": "p", "children": [{ "text": "Cookie Popup" }], "id": "s7t8u9v0w1" }] },
+                                    { "type": "td", "id": "x7y8z9a0b1", "children": [{ "type": "p", "children": [{ "text": "Shows a privacy consent banner to comply with regulations" }], "id": "c7d8e9f0g1" }] }
+                                ]
+                            },
+                            {
+                                "type": "tr", "id": "h7i8j9k0l1", "children": [
+                                    { "type": "td", "id": "m7n8o9p0q1", "children": [{ "type": "p", "children": [{ "text": "Robots.txt" }], "id": "r7s8t9u0v1" }] },
+                                    { "type": "td", "id": "w7x8y9z0a1", "children": [{ "type": "p", "children": [{ "text": "Controls which pages search engines can crawl and index" }], "id": "b7c8d9e0f1" }] }
+                                ]
+                            }
+                        ]
+                    },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "g7h8i9j0k1" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Write unique meta descriptions for your blog — generic descriptions get ignored by both search engines and readers." }], "id": "l7m8n9o0p1" },
+                    { "type": "callout", "variant": "info", "children": [{ "text": "Use the AI SEO Suggestions feature in the editor for post-level optimization. The SEO settings here apply to your overall blog." }], "id": "q7r8s9t0u1" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "v7w8x9y0z1" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Analytics not tracking? Verify your GA4 measurement ID is correct and check that your ad blocker isn't interfering." }], "id": "a8b9c0d1e2" },
+                    { "type": "p", "children": [{ "text": "Related topics: Using AI to Enhance Your Content, Connecting a Custom Domain." }], "id": "f8g9h0i1j2" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f-billing-plans",
+        "title": "Billing and Plans",
+        "slug": "billing-and-plans",
+        "type": "folder",
+        "children": [
+            {
+                "id": "p-subscription-credits",
+                "title": "Managing Your Subscription and Credits",
+                "slug": "managing-your-subscription-and-credits",
+                "type": "page",
+                "description": "View your current plan, upgrade or downgrade, manage Paddle payments, and track your AI credits.",
+                "content": [
+                    { "type": "h1", "children": [{ "text": "Managing Your Subscription and Credits" }], "id": "k8l9m0n1o2" },
+                    { "type": "h2", "children": [{ "text": "Overview" }], "id": "p8q9r0s1t2" },
+                    { "type": "p", "children": [{ "text": "Your HyperBlog subscription determines which features you can access and how many AI credits you have available for content enhancement. Billing is handled securely through Paddle, and you can view your plan, track credit usage, and purchase additional credits directly from your dashboard." }], "id": "u8v9w0x1y2" },
+                    { "type": "h2", "children": [{ "text": "How It Works" }], "id": "z8a9b0c1d2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "View your current subscription plan and its included features." }], "id": "e8f9g0h1i2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Track your remaining AI credits — used for blog enhancement, SEO suggestions, and keyword extraction." }], "id": "j8k9l0m1n2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "See how many blog posts you can still create on your current plan." }], "id": "o8p9q0r1s2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Upgrade, downgrade, or cancel your plan at any time." }], "id": "t8u9v0w1x2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Purchase additional AI credits if you run out before your plan renews." }], "id": "y8z9a0b1c2" },
+                    { "type": "h2", "children": [{ "text": "Steps" }], "id": "d8e9f0g1h2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Navigate to the Subscription or Billing section from your dashboard." }], "id": "i8j9k0l1m2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "Review your current plan, remaining credits, and blog post limit." }], "id": "n8o9p0q1r2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "To change your plan, click \"Upgrade\" or \"Change Plan\" and select a new tier." }], "id": "s8t9u0v1w2" },
+                    { "type": "p", "indent": 1, "listStyleType": "decimal", "children": [{ "text": "To purchase additional credits, click \"Buy Credits\" and complete the payment through Paddle." }], "id": "x8y9z0a1b2" },
+                    { "type": "h2", "children": [{ "text": "Best Practices" }], "id": "c8d9e0f1g2" },
+                    { "type": "callout", "variant": "tip", "children": [{ "text": "Keep an eye on your credit balance — if you use AI features frequently, consider upgrading to a plan with more included credits." }], "id": "h8i9j0k1l2" },
+                    { "type": "callout", "variant": "info", "children": [{ "text": "All payments are processed securely through Paddle. HyperBlog does not store your payment information." }], "id": "m8n9o0p1q2" },
+                    { "type": "h2", "children": [{ "text": "Troubleshooting" }], "id": "r8s9t0u1v2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Payment failed? Check that your payment method is valid in your Paddle account." }], "id": "w8x9y0z1a2" },
+                    { "type": "p", "indent": 1, "listStyleType": "disc", "children": [{ "text": "Credits not updating after purchase? Refresh the page — credit balance updates may take a moment to reflect." }], "id": "b8c9d0e1f2" },
+                    { "type": "p", "children": [{ "text": "Related topics: Using AI to Enhance Your Content, Creating and Editing Blog Posts." }], "id": "g8h9i0j1k2" }
+                ]
+            }
+        ]
+    }
+]
